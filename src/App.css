@@ -1,0 +1,43 @@
+
+.boxStyle{
+  box-shadow: 5px 5px 15px gold;
+  border: 2px solid gray;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 100px 10px 5px 5px;
+}
+.setMiddleStyle{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+}
+.form-design{
+  box-shadow: 5px 5px 15px rosybrown;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px 30px;
+  border: 10px solid lavender;
+  background-color: powderblue;
+}
+.hr{
+  
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+
