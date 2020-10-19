@@ -12,7 +12,7 @@ const Blog = () => {
         fetch('https://fast-chamber-99954.herokuapp.com/registrations?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setIndivRegInfo(data))
-    }, [loggedInUser.email])
+    }, [indivRegInfo])
     return (
         <div className="setMiddleStyle">
             <img src={logo} alt="" width="200px" /><br />
